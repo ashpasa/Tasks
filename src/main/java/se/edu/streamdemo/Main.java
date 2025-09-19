@@ -11,11 +11,10 @@ public class Main {
         System.out.println("Welcome to Task manager (using streams)");
         Datamanager dataManager = new Datamanager("./data/data.txt");
         ArrayList<Task> tasksData = dataManager.loadData();
-        /*
+
         System.out.println("Printing all data ...");
         printAllData(tasksData);
         printDataUsingStreams(tasksData);
-        */
 
         System.out.println("Printing deadlines ...");
         printDeadlines(tasksData);
